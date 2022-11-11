@@ -1,0 +1,90 @@
+.textcolor {
+  color: black;
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+}
+.menu {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  gap: 42px;
+  justify-content: end;
+  margin: 32px;
+}
+.H1topsara {
+  font-family: "Lustria", serif;
+  font-size: 400px;
+  position: absolute;
+  top: -370px;
+  left: -345px;
+  line-height: 50%;
+  font-weight: 400;
+  text-align: center;
+}
+.H1topdopson {
+  font-family: "Lustria", serif;
+  font-size: 400px;
+  position: absolute;
+  top: -170px;
+  left: -633px;
+  line-height: 50%;
+  font-weight: 400;
+  text-align: center;
+}
+.H1bottomsara {
+  font-family: "Lustria", serif;
+  font-size: 400px;
+  position: absolute;
+  top: 80px;
+  left: -345px;
+  line-height: 50%;
+  font-weight: 400;
+  text-align: center;
+}
+.H1bottomdopson {
+  font-family: "Lustria", serif;
+  font-size: 400px;
+  position: absolute;
+  top: 320px;
+  left: -633px;
+  line-height: 50%;
+  font-weight: 400;
+  text-align: center;
+}
+.H1sidesara {
+  font-family: "Lustria", serif;
+  font-size: 400px;
+  position: absolute;
+  top: -185px;
+  left: 830px;
+  line-height: 50%;
+  font-weight: 400;
+  transform: rotateY(180deg);
+  text-align: center;
+}
+.H1sidedopson {
+  font-family: "Lustria", serif;
+  font-size: 400px;
+  position: absolute;
+  top: 80px;
+  left: 462px;
+  line-height: 50%;
+  font-weight: 400;
+  transform: rotateY(180deg);
+  text-align: center;
+}
+.textcontainer {
+  position: relative;
+  background-color: white;
+  height: 1200px;
+}
+.deskriptiontext {
+  text-align: center;
+  font-size: 200px;
+  font-weight: 400;
+}
+.aboutme {
+  display: flex;
+  flex-direction: row;
+}
