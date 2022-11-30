@@ -1,3 +1,10 @@
+html {
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+body {
+  overflow: hidden;
+}
 .textcolor {
   color: black;
   font-size: 20px;
@@ -11,53 +18,55 @@
   gap: 42px;
   justify-content: end;
   margin: 32px;
+  z-index: 1;
+  position: relative;
 }
 .H1topsara {
   font-family: "Lustria", serif;
-  font-size: 400px;
+  font-size: 29vw;
   position: absolute;
-  top: -370px;
-  left: -345px;
+  top: -27vw;
+  left: -28vw;
   line-height: 50%;
   font-weight: 400;
   text-align: center;
 }
 .H1topdopson {
   font-family: "Lustria", serif;
-  font-size: 400px;
+  font-size: 29vw;
   position: absolute;
-  top: -170px;
-  left: -633px;
+  top: -12vw;
+  left: -48vw;
   line-height: 50%;
   font-weight: 400;
   text-align: center;
 }
 .H1bottomsara {
   font-family: "Lustria", serif;
-  font-size: 400px;
+  font-size: 29vw;
   position: absolute;
-  top: 80px;
-  left: -345px;
+  top: 6vw;
+  left: -28vw;
   line-height: 50%;
   font-weight: 400;
   text-align: center;
 }
 .H1bottomdopson {
   font-family: "Lustria", serif;
-  font-size: 400px;
+  font-size: 29vw;
   position: absolute;
-  top: 320px;
-  left: -633px;
+  top: 23vw;
+  left: -48vw;
   line-height: 50%;
   font-weight: 400;
   text-align: center;
 }
 .H1sidesara {
   font-family: "Lustria", serif;
-  font-size: 400px;
+  font-size: 29vw;
   position: absolute;
-  top: -185px;
-  left: 830px;
+  top: -13vw;
+  left: 58vw;
   line-height: 50%;
   font-weight: 400;
   transform: rotateY(180deg);
@@ -65,10 +74,10 @@
 }
 .H1sidedopson {
   font-family: "Lustria", serif;
-  font-size: 400px;
+  font-size: 29vw;
   position: absolute;
-  top: 80px;
-  left: 462px;
+  top: 6vw;
+  left: 32vw;
   line-height: 50%;
   font-weight: 400;
   transform: rotateY(180deg);
@@ -76,15 +85,212 @@
 }
 .textcontainer {
   position: relative;
-  background-color: white;
-  height: 1200px;
+  height: 80vw;
 }
 .deskriptiontext {
   text-align: center;
-  font-size: 200px;
+  font-size: 150px;
   font-weight: 400;
+  padding-left: 50px;
+  padding-right: 50px;
+  line-height: 13rem;
 }
 .aboutme {
   display: flex;
   flex-direction: row;
+  justify-content: center;
+  margin: 0px 230px 200px;
+}
+.img {
+  width: 376px;
+  height: 511px;
+  overflow: hidden;
+  object-fit: cover;
+  border-radius: 20px;
+}
+.brodtext {
+  margin: 40px;
+  font-size: 24px;
+}
+.meblob {
+  width: 40%;
+  margin-left: 29%;
+  margin-right: auto;
+  display: block;
+  top: 25%;
+  position: absolute;
+}
+.blobaboutme {
+  position: absolute;
+  top: 1300px;
+  left: 40px;
+  z-index: -1;
+}
+.h1hellotext {
+  font-weight: 400;
+  font-family: "Lustria";
+  font-size: 64px;
+  position: relative;
+  top: 26px;
+  left: 606px;
+}
+
+/* css for case */
+
+.h1bostadsklar {
+  position: relative;
+  font-weight: 400;
+  font-family: "Lustria";
+  font-size: 64px;
+  text-align: center;
+}
+.pbostadsklar {
+  margin: 0px 400px 80px 400px;
+}
+
+.scrollimg {
+  display: flex;
+  overflow: scroll;
+}
+.imgpadding {
+  padding: 16px;
+  max-height: 600px;
+}
+.nextbutton {
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  background-color: black;
+  text-decoration: none;
+}
+.buttonmargin {
+  margin: 40px;
+  text-align: center;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+@media (max-width: 1300px) {
+  .h1hellotext {
+    left: 20vw;
+  }
+}
+
+@media (max-width: 1112px) {
+  .pbostadsklar {
+    margin: 0px 160px 32px 160px;
+  }
+  .blobaboutme {
+    top: 1000px;
+  }
+
+  .h1bostadsklar {
+    position: relative;
+    font-weight: 400;
+    font-family: "Lustria";
+    font-size: 50px;
+    text-align: center;
+  }
+  .h1hellotext {
+    left: 20vw;
+  }
+  .aboutme {
+    margin: 0px 106px 200px;
+  }
+}
+@media (max-width: 890px) {
+  .h1hellotext {
+    font-weight: 400;
+    font-family: "Lustria";
+    font-size: 50px;
+    position: relative;
+    top: 26px;
+    left: 12vh;
+  }
+  .blobaboutme {
+    display: none;
+  }
+  .blobaboutme {
+    display: none;
+  }
+  .aboutme {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0px 28px 20px;
+  }
+  .h1hellotext {
+    font-weight: 400;
+    font-family: "Lustria";
+    font-size: 36px;
+    position: relative;
+    top: 26px;
+    left: 36vh;
+  }
+  .img {
+    width: 376px;
+    height: 511px;
+    overflow: hidden;
+    object-fit: cover;
+    border-radius: 20px;
+    margin-left: 25%;
+  }
+}
+
+@media (max-width: 700px) {
+  .deskriptiontext {
+    text-align: center;
+    font-size: 70px;
+    font-weight: 400;
+    padding-left: 50px;
+    padding-right: 50px;
+    line-height: 6rem;
+  }
+  .h1bostadsklar {
+    position: relative;
+    font-weight: 400;
+    font-family: "Lustria";
+    font-size: 40px;
+    text-align: center;
+  }
+  .pbostadsklar {
+    margin: 0px 40px 8px 40px;
+  }
+  .menu {
+    gap: 8px;
+  }
+  .textcolor {
+    font-size: 12px;
+  }
+  .aboutme {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0px 28px 20px;
+  }
+  .h1hellotext {
+    font-weight: 400;
+    font-family: "Lustria";
+    font-size: 30px;
+    position: relative;
+    top: 26px;
+    left: 12vh;
+  }
+  .img {
+    width: 200px;
+    height: 300px;
+    overflow: hidden;
+    object-fit: cover;
+    border-radius: 20px;
+    margin-left: 25%;
+  }
+  .brodtext {
+    margin: 40px;
+    font-size: 16px;
+  }
+  .blobaboutme {
+    display: none;
+  }
 }
